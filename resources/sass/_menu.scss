@@ -1,0 +1,68 @@
+/*---------------------------------------------*/
+                /*SALONES HOME*/
+/*----------------------------------------------*/
+
+
+
+.salones-home #palmeras{
+    /*background: url(../img/salones-home/palmeras-home.jpg);*/
+    height: 444px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.salones-home #laguna{
+   /* background: url(../img/salones-home/laguna-home.jpg);*/
+     background-repeat: no-repeat;
+    background-size: cover;
+    height: 444px;
+}
+
+
+.square{
+       position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 148px;
+    width: 220px;
+    text-align: center;
+    border: 4px solid white;
+    padding: 20px;
+    font-family: raleway-b;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.square h2 span{
+    color:#6EC39A;
+}
+
+.image-selector{
+    cursor:pointer;
+}
+
+#menu .image-selector .overlay{
+    background: black;
+    position: absolute;
+    top: 0%;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.14;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+
+
+
+#menu .image-selector:hover .overlay{
+ -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    opacity: 0.8;   
+}

@@ -1,0 +1,34 @@
+section#nosotros{
+	.bkground-gray{
+
+	background:$light-gray;	
+	padding-top:$title-margin-top;
+	padding-bottom:$title-margin-top;
+	}
+
+}
+
+#nosotros .content p{
+    width: 580px;
+    margin: auto;
+
+}
+
+.nos-icons-cont{
+	ul{
+		width: fit-content;
+		margin: auto;
+	    margin-top: 80px;
+	  	margin-bottom: 80px;
+
+
+		li{
+			margin-right: 60px;
+		}
+	}
+}
+
+
+.row.content h2{
+  margin-bottom:20px;
+}
