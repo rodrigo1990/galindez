@@ -1,0 +1,32 @@
+#contacto{
+	margin-top:$section-margin-top;
+.list-cont{
+	position:relative;
+}
+	#map{
+	    width: 94%;
+	    height: 400px;
+	    float: right;
+
+	}
+
+	ul{
+		margin:auto;
+	    margin-top: 98px;
+	}
+	ul li{
+		margin-bottom:50px;
+		a{
+			color:$primary-color;
+		}
+		i{
+			font-size: 25px;
+		    color: #D02322;
+		    vertical-align: middle;
+		    margin-right: 10px;
+		}
+	}
+
+}
+
+

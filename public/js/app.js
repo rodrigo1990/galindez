@@ -40072,6 +40072,10 @@ __webpack_require__(/*! ./scripts/header-functions */ "./resources/js/scripts/he
 
 __webpack_require__(/*! ./scripts/manejoDeMenus */ "./resources/js/scripts/manejoDeMenus.js");
 
+__webpack_require__(/*! ./scripts/scroll-animation */ "./resources/js/scripts/scroll-animation.js");
+
+__webpack_require__(/*! ./scripts/validacionesSolicitarPrestamo */ "./resources/js/scripts/validacionesSolicitarPrestamo.js");
+
 if (document.getElementById('owl-1') || document.getElementById('owl-2')) {
   __webpack_require__(/*! ../OwlCarousel2-2.3.4/dist/owl.carousel.min */ "./resources/OwlCarousel2-2.3.4/dist/owl.carousel.min.js");
 
@@ -40151,14 +40155,14 @@ $(window).scroll(function (event) {
   if (scroll == 0) {
     $("header").removeClass("animated slideInDown");
     $("header").removeClass("addBkground");
-    $("header").removeClass("removeBkground");
-    $("header #logo-btn img").attr('src', 'img/logo-white.svg');
+    $("header").addClass("removeBkground");
     /*$(".xs-row").removeClass("addBkground");
       $("header").addClass("removeBkground");
       $(".xs-row").addClass("removeBkground");
           $("header .logo").attr('src','img/logo-white.png');*/
   } else {
-    $("header #logo-btn img").attr('src', 'img/logo-blue.svg'); //$(".xs-row").removeClass("removeBkground");
+    $("header #logo-btn img").attr('src', 'img/logo-blue.svg');
+    $("header").removeClass("removeBkground"); //$(".xs-row").removeClass("removeBkground");
 
     $("header").addClass("animated slideInDown");
     $("header").addClass("addBkground"); //$("header .logo").attr('src','img/logo.png');
@@ -40190,6 +40194,21 @@ $("#xsMenu  li a").click(function () {
 
 /***/ }),
 
+/***/ "./resources/js/scripts/scroll-animation.js":
+/*!**************************************************!*\
+  !*** ./resources/js/scripts/scroll-animation.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+window.scrollAnimate = function (id) {
+  $('html,body').animate({
+    scrollTop: $('#' + id + '').offset().top - 100
+  }, 'slow');
+};
+
+/***/ }),
+
 /***/ "./resources/js/scripts/slider.js":
 /*!****************************************!*\
   !*** ./resources/js/scripts/slider.js ***!
@@ -40214,6 +40233,142 @@ $('#owl-1').owlCarousel({
     }
   }
 });
+
+/***/ }),
+
+/***/ "./resources/js/scripts/validacionesSolicitarPrestamo.js":
+/*!***************************************************************!*\
+  !*** ./resources/js/scripts/validacionesSolicitarPrestamo.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+window.validarFormulario = function () {
+  var nombre = $("#formulario #nombre").val();
+  var fecha = $("#formulario #fecha").val();
+  var email = $("#formulario #email").val();
+  var lugar = $("#formulario #lugar").val();
+  var telefono = $("#formulario #telefono").val();
+  var cantidad = $("#formulario #cantidad-invitados").val();
+  var tipo_evento = $("#formulario #tipo-evento").val();
+  var menu = $("#formulario input[name='menu']:checked").val();
+  var consulta = $("#formulario #consulta").val();
+  var nombreEstaValidado = false;
+  var fechaEstaValidado = false;
+  var emailEstaValidado = false;
+  var lugarEstaValidado = false;
+  var telefonoEstaValidado = false;
+  var cantidadEstaValidado = false;
+  var tipoEventoEstaValidado = false;
+  var menuEventoEstaValidado = false;
+  var emailValido = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+  if (nombre.length == 0) {
+    $("#formulario #nombre-error").fadeIn();
+    nombreEstaValidado = false;
+  } else {
+    $("#formulario #nombre-error").fadeOut();
+    nombreEstaValidado = true;
+  }
+
+  console.log('nombre ' + nombreEstaValidado);
+
+  if (fecha.length == 0) {
+    $("#formulario #fecha-error").fadeIn();
+    fechaEstaValidado = false;
+  } else {
+    $("#formulario #fecha-error").fadeOut();
+    fechaEstaValidado = true;
+  }
+
+  console.log('fecha ' + fechaEstaValidado);
+
+  if (email.length == 0 || email.search(emailValido)) {
+    $("#formulario #email-error").fadeIn();
+    emailEstaValidado = false;
+  } else {
+    $("#formulario #email-error").fadeOut();
+    emailEstaValidado = true;
+  }
+
+  console.log('email ' + emailEstaValidado);
+
+  if (lugar.length == 0) {
+    $("#formulario #lugar-error").fadeIn();
+    lugarEstaValidado = false;
+  } else {
+    $("#formulario #lugar-error").fadeOut();
+    lugarEstaValidado = true;
+  }
+
+  console.log('lugar ' + lugarEstaValidado);
+
+  if (telefono.length == 0) {
+    $("#formulario #telefono-error").fadeIn();
+    telefonoEstaValidado = false;
+  } else {
+    $("#formulario #telefono-error").fadeOut();
+    telefonoEstaValidado = true;
+  }
+
+  console.log('telefono ' + telefonoEstaValidado);
+
+  if (cantidad == 0) {
+    $("#formulario #cantidad-invitados-error").fadeIn();
+    cantidadEstaValidado = false;
+  } else {
+    $("#formulario #cantidad-invitados-error").fadeOut();
+    cantidadEstaValidado = true;
+  }
+
+  console.log('cantidad ' + cantidadEstaValidado);
+
+  if (tipo_evento == "null") {
+    $("#formulario #tipo-evento-error").fadeIn();
+    tipoEventoEstaValidado = false;
+  } else {
+    $("#formulario #tipo-evento-error").fadeOut();
+    tipoEventoEstaValidado = true;
+  }
+
+  console.log('tipo evento ' + tipoEventoEstaValidado); //  alert(menu);
+
+  if (nombreEstaValidado == true && fechaEstaValidado == true && emailEstaValidado == true && lugarEstaValidado == true && telefonoEstaValidado == true && tipoEventoEstaValidado == true) {
+    $("body").append('<div id="preloader-mailing" ><div class="spinner-sm spinner-sm-1" id="status"> </div></div>');
+    $.ajax({
+      headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+      },
+      data: {
+        nombre: nombre,
+        fecha: fecha,
+        email: email,
+        lugar: lugar,
+        telefono: telefono,
+        cantidad: cantidad,
+        tipo_evento: tipo_evento,
+        menu: menu,
+        consulta: consulta
+      },
+      url: 'enviarFormulario',
+      type: 'post',
+      dataType: "json",
+      success: function success(msg) {
+        $('#preloader-mailing  #status').fadeOut(); // will first fade out the loading animation 
+
+        $('#preloader-mailing ').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+
+        $('body').delay(350).css({
+          'overflow-y': 'visible'
+        });
+        alert("¡Email enviado con exito! Muchas gracias");
+        setTimeout(function () {
+          $("#preloader-mailing").remove();
+        }, 500);
+      }
+    });
+  }
+};
 
 /***/ }),
 

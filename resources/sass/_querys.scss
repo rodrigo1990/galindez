@@ -17,6 +17,10 @@
 
 @media only screen and (min-width: 320px) and (max-width: 850px){
 
+    .fixed-btn{
+        display:none;
+    }
+
  #formulario-cont{
         top: 162px !important;
     width: 100vw !important;
@@ -31,9 +35,7 @@
 
 	header {
     padding: initial;
-    padding-top: 15px;
-    padding-bottom:15px;
-    height: auto;
+    height: 67px;
 	}
 
 
@@ -90,6 +92,82 @@ ul.flex{
 }
 
 
+#nosotros .content p {
+    width: 90%;
+    margin: auto;
+}
+
+#contacto #map {
+    width: 100%;
+    float: unset;
+}
+
+#contacto ul {
+    margin: auto;
+    margin-top: 40px;
+    width: fit-content;
+
+    li{
+        margin-bottom: 25px;
+    }
+}
+
+#branding-bar ul.flex li {
+    margin-right: auto;
+}
+
+#branding-bar ul.flex li:not(:nth-child(3)) {
+    margin-bottom:25px;
+}
+
+footer img {
+    width: 120px;
+    margin: auto;
+    display: block;
+}
+
+footer .rr-ss-cont{
+    margin:auto;
+    display:block;
+    width: fit-content;
+}
+
+
+#formulario { 
+    margin-top:($section-margin-top - 60);
+
+}
+
+
+#formulario{
+    
+    .form{
+        a{
+            margin-top:20px;
+        }
+        form{
+            .col-sm-6{
+                margin-bottom:20px;
+            }
+
+            .row{
+                margin-top:0;
+            }
+
+            #tipo-evento{
+                margin-top:10px;
+            }
+
+        }
+
+    } 
+
+
+
+} 
+
+
+
 }
 
 
@@ -130,10 +208,19 @@ ul.flex{
 
 @media only screen and (width: 1024px)  {
 
+header{
+    height: 142px;
+    padding:inherit;
+}
 
+header .logo{
+    width: 218px !important;
+    margin-top:18px;
+}
 
 .xs-row i{
-    font-size: 7.5rem;
+    font-size: 70px;
+    margin-top:26px;
 }
 
 

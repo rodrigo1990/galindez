@@ -1,9 +1,13 @@
 section#nosotros{
+
+	h1{
+		margin-bottom: 19px;
+	}
 	.bkground-gray{
 
 	background:$light-gray;	
 	padding-top:$title-margin-top;
-	padding-bottom:$title-margin-top;
+	padding-bottom:$title-margin-top +4;
 	}
 
 }
@@ -15,6 +19,15 @@ section#nosotros{
 }
 
 .nos-icons-cont{
+
+	@media screen\0 {
+
+    ul{
+        width: 850px;
+    }
+
+	}
+
 	ul{
 		width: fit-content;
 		margin: auto;
@@ -23,10 +36,27 @@ section#nosotros{
 
 
 		li{
-			margin-right: 60px;
+		    margin-right: 49px;
+   		 	margin-left: 30px;
+
+   		 	img{
+   		 		width: 63px;
+   		 		margin-bottom:7px;
+   		 	}
+
+   		 	@media screen\0 {
+
+			    img{
+   		 			width: auto;
+   		 		}
+
+			}
 		}
 	}
 }
+
+
+
 
 
 .row.content h2{

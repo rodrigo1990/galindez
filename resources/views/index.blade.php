@@ -75,6 +75,123 @@
 		</div>
 	</section>
 
+	<section id="galeria">
+		<div id="gallery" style="display:none;">
+		
+			<img alt="Image 1 Title" src="<?php echo asset('img/slider/slide_1.jpg') ?>"
+				data-image="<?php echo asset('img/slider/slide_1.jpg') ?>"
+				data-description="Image 1 Description">
+			
+			<img alt="Image 2 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-description="Image 2 Description">
+
+				<img alt="Image 2 Title" src="<?php echo asset('img/menu-img-bkground-02.webp') ?>"
+				data-image="<?php echo asset('img/menu-img-bkground-02.webp') ?>"
+				data-description="Image 2 Description">
+			
+
+			<img alt="Image 2 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-description="Image 2 Description">
+
+
+				<img alt="Image 2 Title" src="<?php echo asset('img/menu-img-bkground-01.webp') ?>"
+				data-image="<?php echo asset('img/menu-img-bkground-01.webp') ?>"
+				data-description="Image 2 Description">
+
+				<img alt="Image 1 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-description="Image 1 Description">
+			
+			<img alt="Image 2 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-description="Image 2 Description">
+
+				<img alt="Image 2 Title" src="<?php echo asset('img/menu-img-bkground-02.webp') ?>"
+				data-image="<?php echo asset('img/menu-img-bkground-02.webp') ?>"
+				data-description="Image 2 Description">
+			
+
+			<img alt="Image 2 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-description="Image 2 Description">
+
+
+				<img alt="Image 2 Title" src="<?php echo asset('img/menu-img-bkground-01.webp') ?>"
+				data-image="<?php echo asset('img/menu-img-bkground-01.webp') ?>"
+				data-description="Image 2 Description">
+
+				<img alt="Image 1 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-description="Image 1 Description">
+			
+			<img alt="Image 2 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-description="Image 2 Description">
+
+				<img alt="Image 2 Title" src="<?php echo asset('img/menu-img-bkground-02.webp') ?>"
+				data-image="<?php echo asset('img/menu-img-bkground-02.webp') ?>"
+				data-description="Image 2 Description">
+			
+
+			<img alt="Image 2 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-description="Image 2 Description">
+
+
+				<img alt="Image 2 Title" src="<?php echo asset('img/menu-img-bkground-01.webp') ?>"
+				data-image="<?php echo asset('img/menu-img-bkground-01.webp') ?>"
+				data-description="Image 2 Description">
+
+				<img alt="Image 1 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-description="Image 1 Description">
+			
+			<img alt="Image 2 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-description="Image 2 Description">
+
+				<img alt="Image 2 Title" src="<?php echo asset('img/menu-img-bkground-02.webp') ?>"
+				data-image="<?php echo asset('img/menu-img-bkground-02.webp') ?>"
+				data-description="Image 2 Description">
+			
+
+			<img alt="Image 2 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-description="Image 2 Description">
+
+
+				<img alt="Image 2 Title" src="<?php echo asset('img/menu-img-bkground-01.webp') ?>"
+				data-image="<?php echo asset('img/menu-img-bkground-01.webp') ?>"
+				data-description="Image 2 Description">
+
+				<img alt="Image 1 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-description="Image 1 Description">
+			
+			<img alt="Image 2 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-description="Image 2 Description">
+
+				<img alt="Image 2 Title" src="<?php echo asset('img/menu-img-bkground-02.webp') ?>"
+				data-image="<?php echo asset('img/menu-img-bkground-02.webp') ?>"
+				data-description="Image 2 Description">
+			
+
+			<img alt="Image 2 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
+				data-description="Image 2 Description">
+
+
+				<img alt="Image 2 Title" src="<?php echo asset('img/menu-img-bkground-01.webp') ?>"
+				data-image="<?php echo asset('img/menu-img-bkground-01.webp') ?>"
+				data-description="Image 2 Description">
+				
+		
+		</div>
+	</section>
+
 
 	<section id="menu">
 		<div class="row salones-home">
@@ -86,13 +203,16 @@
 				<div class="col-md-6 col-sm-12 image-selector" id="palmeras">
 
 					<div class="overlay"></div>
+					
+					<div class="text-container">
 
-					<div class="square text-center">
+						<h1 class="text-center">CORPORATIVO </h1>
 
-						<h2>SALÓN <br> <span>PALMERAS</span></h2>
+						<img class="arrow center-block" src="<?php echo asset('img/icon-fixed-btn-red.svg') ?>" alt="">
+
+						<h2 class="text-center">DESCARGAR <br> <b>MENU</b>  <hr></h2>
 
 					</div>
-
 
 
 				</div>
@@ -104,11 +224,15 @@
 				<div class="col-md-6 col-sm-12 image-selector" id="laguna">
 
 					<div class="overlay"></div>
+					
+					<div class="text-container">
 
-					<div class="square text-center">
+						<h1 class="text-center">SOCIAL</h1>
+						
 
-						<h2>SALÓN <br> <span>LAGUNA</span></h2>
+						<img class="arrow center-block" src="<?php echo asset('img/icon-fixed-btn-red.svg') ?>" alt="">
 
+						<h2 class="text-center">DESCARGAR <br> <b>MENU</b>  <hr></h2>					
 					</div>
 
 				</div>
@@ -120,6 +244,157 @@
 	</div>
 
 	</section>
-    
 
+
+
+	<section id="contacto">
+
+		<div class="row">
+			<div class="container-fluid">
+				<div class="col-lg-6 col-sm-6">
+					<div id="map"></div>
+				</div>
+				<div class="col-lg-6 col-sm-6">
+					<div class="list-cont">
+						<ul>
+							<li> <p><i class="fas fa-map-marker-alt"></i> Pacheco 3548 - Capital Federal</p> </li>
+							<li> <p><i class="fas fa-phone"></i> (54 11) 4543-7933</p> </li>
+							<li><p><i class="far fa-envelope"></i> E-mail: <a href="mailTo:info@galindez.com.ar">info@galindez.com.ar</a></p> </li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+	</section>
+
+
+	<section id="formulario">
+		
+	<div class="row form">
+		
+	<div class="container">
+		
+		<form action="">
+				<h1 class="text-center">PEDÍ TU PRESUPUESTO</h1>
+
+	  			
+	  			<div class="row">
+	  				<div class="col-sm-6">
+	  					<input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+	  					<div class="error" id="nombre-error">Ingrese un nombre</div>
+	  				</div>
+	  				<div class="col-sm-6">
+	  					<input type="text" onfocus="(this.type='date')" class="form-control form-small" name="fecha" id="fecha" placeholder="Fecha">
+	  					<div class="error" id="fecha-error">Ingrese una fecha</div>
+	  					
+	  					
+	  				</div>
+	  			</div>
+	  			<div class="row">
+	  		
+	  				<div class="col-sm-6">
+	  					<input type="text" class="form-control" name="email" id="email" placeholder="Mail">
+	  					<div class="error" id="email-error">Ingrese un email válido</div>
+	  				</div>
+	  				
+	  				<div class="col-sm-6">
+	  					<input type="text" class="form-control" name="lugar" id="lugar" placeholder="Lugar">
+	  					<div class="error" id="lugar-error">Ingrese un lugar válido</div>
+
+  			
+	  				</div>
+	  			</div>
+	  			<div class="row">
+	  				<div class="col-sm-6">
+	  					<input type="text" class="form-control" name="telefono" id="telefono" placeholder="Tel de contacto">
+	  					<div class="error" id="telefono-error">Ingrese un teléfono</div>
+	  					
+	  				</div>
+	  				<div class="col-sm-6">
+	  					<input type="number" class="form-control" name="cantidad-invitados" id="cantidad-invitados" placeholder="Cantidad de invitados">
+						<div class="error" id="cantidad-invitados-error">Ingrese una cantidad de invitados</div>
+	  				</div>
+	  			</div>
+
+	  			<div class="row">
+	  				<div class="col-sm-6">
+	  					<select name="tipo-evento" id="tipo-evento" class="form-control form-small">
+			  				<option value="null">Elegir tipo de evento</option>
+			  				<option value="Social">Social</option>
+			  				<option value="Corporativo">Corporativo</option>
+	  					</select>		
+	  					<div class="error" id="tipo-evento-error">Ingrese un tipo de evento</div>
+	  					
+	  				</div>
+	  				<div class="col-sm-6">
+	  					<h4>MENU</h4>
+						<label class="radio-inline"><input type="radio" name="menu" value="Finger Food" checked>Finger food</label>
+						<label class="radio-inline"><input type="radio" value="Formal" name="menu">Formal</label>
+						<label class="radio-inline"><input type="radio" value="Informal" name="menu">Informal</label>
+
+	  				</div>
+	  			</div>
+	  			
+	  			<div class="row">
+	  				<div class="col-sm-12">
+	  					<input type="text" class="form-control" name="consulta" id="consulta" placeholder="Consulta:">	
+	  				</div>
+	  			</div>
+
+	  			<div class="row">
+	  				<div class="col-sm-12">
+	  					
+	  					<a class="btn" onclick="validarFormulario()">ENVIAR</a>		
+	  				</div>
+	  			</div>
+	  		</form>
+
+	  		</div>
+	</div>
+		
+		
+
+	</section>
+
+
+	<section id="branding-bar">
+		<div class="row">
+			<ul class="flex">
+				<li><img src="<?php echo asset('img/branding-bar-icon-01.png') ?>" alt=""></li>
+				<li><img src="<?php echo asset('img/branding-bar-icon-01.png') ?>" alt=""></li>
+				<li><img src="<?php echo asset('img/branding-bar-icon-02.png') ?>" alt=""></li>
+			</ul>
+		</div>
+	</section>
+
+	<footer>
+		<div class="row">
+			<div class="container">
+				<div class="col-sm-2">
+					<img src="<?php echo asset('img/logo-footer.svg') ?>" alt="">
+				</div>
+				<div class="col-sm-8">
+					<p class="text-center">
+						Pacheco 3548 - Capital Federal / <b>Tel:</b> (54 11) 4543-7933 / <b>E-mail:</b>info@galindez.com.ar
+					</p>
+				</div>
+				<div class="col-sm-2">
+
+					<div class="rr-ss-cont">
+					
+						<a href="{{$ig}}" target="_blank" class="float-left rr-ss"><i class="fab fa-instagram"></i></a>
+
+									
+						<a href="{{$fb}}" target="_blank" class="float-left rr-ss"><i class="fab fa-facebook-f"></i></a>
+
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</footer>
+    
     @stop

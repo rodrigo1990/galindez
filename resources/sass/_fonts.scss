@@ -2,16 +2,22 @@
                 /*FUENTES*/
 /*----------------------------------------------*/
 @font-face {
-    font-family: ZonaPro-bold;
+    font-family: 'ZonaPro-bold';
     src: url('../fonts/ZonaPro-Bold.otf');
 }
 
 @font-face {
-    font-family: ZonaPro-thin;
+    font-family: 'ZonaPro-thin';
     src: url('../fonts/ZonaPro-Thin.otf');
 }
 
 @font-face {
-    font-family: ZonaPro-Regular;
+    font-family: 'ZonaPro-Regular';
     src: url('../fonts/ZonaPro-Regular.otf');
+}
+
+
+@font-face {
+    font-family: 'ZonaPro-Light';
+    src: url('../fonts/ZonaPro-Light.otf');
 }

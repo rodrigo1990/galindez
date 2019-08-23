@@ -1,0 +1,26 @@
+footer{
+	padding:20px 0 20px 0;
+	a{
+
+		i{
+			font-size: 24px;
+   			 margin-top: 0px;
+		}
+		margin-right: 10px;
+	    color: grey !important;
+	}
+
+	a:hover i {
+		color:$primary-color;
+	}
+	p{
+		margin-top:18px;
+	}
+
+	a{
+		margin-top:14px;
+	}
+	img{
+		width: 120px;
+	}
+}

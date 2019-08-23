@@ -2,39 +2,47 @@
                 /*SALONES HOME*/
 /*----------------------------------------------*/
 
+#menu{
+    margin-top:$section-margin-top;
+}
 
 
 .salones-home #palmeras{
-    /*background: url(../img/salones-home/palmeras-home.jpg);*/
-    height: 444px;
+    background: url(../img/menu-img-bkground-02.webp);
+    height: 413px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position:center;
 }
 
 .salones-home #laguna{
-   /* background: url(../img/salones-home/laguna-home.jpg);*/
+    background: url(../img/menu-img-bkground-01.webp);
      background-repeat: no-repeat;
     background-size: cover;
-    height: 444px;
+    background-position:center;
+    height: 413px;
+}
+
+@media screen\0 {
+
+  .salones-home #palmeras{
+    background: url(../img/menu-img-bkground-02.jpg);
+    height: 413px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.salones-home #laguna{
+    background: url(../img/menu-img-bkground-01.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 413px;
+}
 }
 
 
-.square{
-       position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    height: 148px;
-    width: 220px;
-    text-align: center;
-    border: 4px solid white;
-    padding: 20px;
-    font-family: raleway-b;
-    color: white;
-    letter-spacing: 3px;
-}
 
 .square h2 span{
     color:#6EC39A;
@@ -43,6 +51,48 @@
 .image-selector{
     cursor:pointer;
 }
+
+@media screen\0 {
+
+    #menu .image-selector .text-container{
+      height: 266px;
+    }
+
+}
+
+#menu .image-selector .text-container{
+
+
+    position:absolute;
+    @include center-abs(0px);
+    width: fit-content;
+    height: fit-content;
+
+    h1{
+        color:white;
+    }
+
+    .arrow{
+        width: 20px;
+        margin:25px auto 25px auto;
+    }
+
+    h2{
+        font-family: $paragraph-family;
+        color:white;
+        letter-spacing: 5px;
+        font-size: 20px;
+    }
+
+    hr{
+        width: 167px;
+        height: 4px;
+        background: $primary-color;
+        border: none;
+    }
+}
+
+
 
 #menu .image-selector .overlay{
     background: black;

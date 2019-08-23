@@ -10,6 +10,8 @@ require('../bootstrap-3.3.7-dist/js/bootstrap');
 
 require('./scripts/header-functions');
 require('./scripts/manejoDeMenus');
+require('./scripts/scroll-animation');
+require('./scripts/validacionesSolicitarPrestamo');
 
 if(document.getElementById('owl-1') || document.getElementById('owl-2')){
 	require('../OwlCarousel2-2.3.4/dist/owl.carousel.min');

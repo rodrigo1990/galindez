@@ -1,0 +1,27 @@
+#branding-bar{
+	background:#ABABAB;
+	padding:20px 0 20px 0;
+	
+	@media screen\0 {
+		ul.flex{
+			width: 445px;
+		}
+	}
+
+	ul.flex{
+		width: fit-content;
+		margin:auto;
+
+		li{
+			margin-right: 75px;
+
+			img{
+				width: 74px;
+			}
+		}
+
+		li:nth-child(3) img{
+			width: 71px;
+		}
+	}
+}

@@ -5,7 +5,7 @@
 
 
 header{
-    padding: 20px 43px;
+    padding: 33px 43px;
     position:fixed;
     top:0;
     z-index: 3;
@@ -15,14 +15,22 @@ header{
   /*      -webkit-box-shadow: -1px 10px 30px -24px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 10px 30px -24px rgba(0,0,0,0.75);
     box-shadow: -5px 10px 30px -24px rgba(0,0,0,0.75);*/
-    height: $header-height;
+    /*height: $header-height;*/
 }
 
 
 header ul.menu{
-    margin-top: 19px;
     padding: 0;
     width: fit-content;
+    margin-top:14px;
+}
+
+@media screen\0 {
+
+    header ul.menu{
+        width: 1056px;
+    }
+
 }
 
 header ul.menu>li {
@@ -31,7 +39,7 @@ header ul.menu>li {
 }
 
 header ul.menu li{
-    margin-top: 20px;
+    margin-top: 0;
     margin-right: 20px;
     margin-left: 20px !important;
 }
@@ -48,12 +56,12 @@ header ul.menu>li:not(:first-child){
 
 header ul.menu>li>a:not(.logo-btn) {
     letter-spacing: 1px;
-    
     border-width: 2px;
     border-style: solid;
     border-color: transparent;
     border-radius: 30px;
     padding: 14px;
+    font-size: 13px;
     color:$header-color;
 }
 
@@ -69,7 +77,6 @@ header ul.menu>li>a>img {
     border-width: 2px;
     border-style: solid;
     border-color: transparent;
-    border-radius: 30px;
     color:$header-color;
 }
 
@@ -97,8 +104,8 @@ header ul.menu>li>a i {
 }
 
 header ul.menu>li>a.rr-ss i{
-   font-size: 24px;
-    margin-top: 0px;
+   font-size: 21px;
+    margin-top: 2px;
 }
 
 
@@ -112,7 +119,7 @@ header ul.menu>li>a.rr-ss:hover i{
 
 
 header ul.menu li.icons-li{
-    margin-top: 12px;
+    margin-top: -5px;
 }
 
 header ul.sub-menu{
@@ -174,7 +181,7 @@ header ul.sub-menu li:not(:first-child){
 
 
  .logo{
-        width: 293px !important;
+        width: 179px !important;
     margin-top: 7px;
 }
 
@@ -190,7 +197,7 @@ header ul.sub-menu li:not(:first-child){
     float: right;
     font-size: 3rem;
     color: $primary-color;
-    margin-top: 10px;
+    margin-top: 16px;
 }
 
 
@@ -255,7 +262,7 @@ header ul.sub-menu li:not(:first-child){
 
 
 .addBkground{
-    background:white;
+    background: $header-bkground;
     box-shadow: -5px 10px 30px -24px rgba(0,0,0,0.75);
 }
 
@@ -269,5 +276,17 @@ header ul.sub-menu li:not(:first-child){
 }
 
 .removeBkground{
-    background:transparent;
+    animation:removeBkground 0.5s;
+}
+
+
+@keyframes removeBkground{
+    0%{
+        background:$header-bkground;
+    }
+
+
+    100%{
+        background: transparent;
+    }
 }

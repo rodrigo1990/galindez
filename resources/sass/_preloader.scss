@@ -1,0 +1,69 @@
+/*PRELOADER*/
+
+#preloader, #preloader-mailing  {
+       position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+       background-color: white;
+    z-index: 10043;
+    height: 100%;
+    opacity:1;
+    color:#1a9cd6;
+    text-align:center;
+
+}
+
+#preloader .confirm-container,#preloader-mailing .confirm-container{
+        position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 25%;
+    height: 100px;
+}
+
+#preloader img,#preloader-mailing img {
+        width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#preloader .exito, #preloader-mailing .exito{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    margin: auto;
+    right: 0;
+    height: 400px;
+}
+
+#status, #preloader-mailing #status {
+ position: relative;
+    /* left: 50%; */
+    /* top: 50%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16%;
+}
+
+.spinner-sm {
+      border: 3px solid grey;
+    border-top: 3px solid $primary-color;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

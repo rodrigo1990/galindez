@@ -15,15 +15,33 @@
 	background-image:url(../img/slider/bk1-01.webp);
 }
 
-
 #owl-1 #slide-2{
-	background-image:url(../img/slider/bk1-01.webp);
+  background-image:url(../img/slider/bk1-01.webp);
 }
 
 
 #owl-1 #slide-3{
     background-image:url(../img/slider/bk1-01.webp);
 }
+
+@media screen\0 {
+
+  #owl-1 #slide-1{
+    background-image:url(../img/slider/slide_1.jpg);
+  }
+
+  #owl-1 #slide-2{
+    background-image:url(../img/slider/slide_1.jpg);
+  }
+
+
+  #owl-1 #slide-3{
+    background-image:url(../img/slider/slide_1.jpg);
+  }
+
+}
+
+
 
 /*---------------------------------------------*/
                 /*SLIDER*/
