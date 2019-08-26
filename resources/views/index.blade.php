@@ -1,7 +1,13 @@
 	<?php 
-	$fb = "https://www.facebook.com/119955871504104/";
-	$ig = "https://instagram.com/revolucionpelota?igshid=139dahradwvz3";
-	$email = "info@movimientomas.org"
+	$fb = "https://www.facebook.com/galindezcatering/";
+	$ig = "https://www.instagram.com/cateringgalindez/";
+	$email = "info@galindez.com.ar";
+
+	$dorrego = "http://dorrego.com.ar/";
+
+	$escondidaPalermo = "http://www.laescondidapalermo.com.ar/";
+
+	$escondidaOlivos = "http://www.laescondidaolivos.com.ar/";
 
 
 
@@ -362,9 +368,23 @@
 	<section id="branding-bar">
 		<div class="row">
 			<ul class="flex">
-				<li><img src="<?php echo asset('img/branding-bar-icon-01.png') ?>" alt=""></li>
-				<li><img src="<?php echo asset('img/branding-bar-icon-01.png') ?>" alt=""></li>
-				<li><img src="<?php echo asset('img/branding-bar-icon-02.png') ?>" alt=""></li>
+				<li>
+
+
+					<a href="{{$escondidaOlivos}}" target="_blank">
+						<img src="<?php echo asset('img/branding-bar-icon-01.png') ?>" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="{{$escondidaPalermo}}" target="_blank">
+						<img src="<?php echo asset('img/branding-bar-icon-02.png') ?>" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="{{$dorrego}}" target="_blank">
+						<img src="<?php echo asset('img/branding-bar-icon-03.png') ?>" alt="">
+					</a>
+				</li>
 			</ul>
 		</div>
 	</section>

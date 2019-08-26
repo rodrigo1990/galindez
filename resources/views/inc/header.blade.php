@@ -54,12 +54,15 @@
 			<li><a onclick="scrollAnimate('formulario')" class="xs-btn spa-btn">PRESUPUESTO</a></li>
 			<li>
 				
-				<a href="" target="_blank" class="float-left rr-ss"><i class="far fa-envelope"></i></a>
+				<div class="center-block" style="width:fit-content">
 
-				<a href="https://www.facebook.com/argenpesos" target="_blank" class="float-left rr-ss ml2"><i class="fab fa-facebook-f"></i></a>
-
-
-				<a href="https://www.instagram.com/argenpesos/" target="_blank" class="float-left rr-ss ml2"><i class="fab fa-instagram"></i></a>
+    				<a href="{{$fb}}" target="_blank" class="float-left rr-ss ml2"><i class="fab fa-facebook-f" style="margin-right:10px"></i></a>
+    
+    
+    				<a href="{{$ig}}" target="_blank" class="float-left rr-ss ml2"><i class="fab fa-instagram" style="margin-right:10px"></i></a>
+			
+			    </div>
+			
 			</li>
 		</ul>
 

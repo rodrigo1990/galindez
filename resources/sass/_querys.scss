@@ -17,6 +17,14 @@
 
 @media only screen and (min-width: 320px) and (max-width: 850px){
 
+    #formulario .form a{
+        width: 100%;
+    }
+
+    .nos-icons-cont ul li{
+        margin-bottom: 20px;
+    }
+
     .fixed-btn{
         display:none;
     }
@@ -146,6 +154,9 @@ footer .rr-ss-cont{
             margin-top:20px;
         }
         form{
+            .row:nth-child(5) .col-sm-6:nth-child(2){
+                text-align: center;
+            }
             .col-sm-6{
                 margin-bottom:20px;
             }
