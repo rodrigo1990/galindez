@@ -3472,6 +3472,13 @@ select#tipo-evento option {
 footer {
   padding: 20px 0 20px 0;
 }
+footer ul.xs {
+  display: none;
+}
+footer ul.xs li {
+  margin-top: 0 !important;
+  margin-bottom: 5px !important;
+}
 footer a {
   margin-right: 10px;
   color: grey !important;
@@ -3633,6 +3640,15 @@ footer img {
     padding-left: 0 !important;
   }
 
+  footer .xs {
+    display: block !important;
+    margin-top: 15px !important;
+  }
+
+  footer .lg {
+    display: none !important;
+  }
+
   footer ul {
     margin: auto !important;
     text-align: center;
@@ -3642,7 +3658,7 @@ footer img {
     margin: auto !important;
   }
 
-  footer ul li:not(:nth-child(1)) {
+  footer ul:not(.xs) li:not(:nth-child(1)) {
     margin-top: 15px !important;
   }
 

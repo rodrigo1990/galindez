@@ -62,6 +62,14 @@
     padding-left: 0 !important;
 }
 
+footer .xs{
+    display:block !important;
+    margin-top:15px !important;
+}
+
+footer .lg{
+    display:none !important;
+}
 
 footer ul{
 	margin:auto !important;
@@ -75,7 +83,7 @@ footer ul li{
 	
 }
 
-footer ul li:not(:nth-child(1)){
+footer ul:not(.xs) li:not(:nth-child(1)){
 	margin-top:15px !important;
 	
 }

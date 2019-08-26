@@ -396,9 +396,15 @@
 					<img src="<?php echo asset('img/logo-footer.svg') ?>" alt="">
 				</div>
 				<div class="col-sm-8">
-					<p class="text-center">
+					<p class="text-center lg">
 						Pacheco 3548 - Capital Federal / <b>Tel:</b> (54 11) 4543-7933 / <b>E-mail:</b>info@galindez.com.ar
 					</p>
+
+					<ul class="text-center center-block xs">
+						<li>Pacheco 3548 - Capital Federal</li>
+						<li><b>Tel:</b> (54 11) 4543-7933</li>
+						<li><b>E-mail:</b>info@galindez.com.ar</li>
+					</ul>
 				</div>
 				<div class="col-sm-2">
 
