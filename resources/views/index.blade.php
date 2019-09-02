@@ -265,7 +265,8 @@
 						<ul>
 							<li> <p><i class="fas fa-map-marker-alt"></i> Pacheco 3548 - Capital Federal</p> </li>
 							<li> <p><i class="fas fa-phone"></i> (54 11) 4543-7933</p> </li>
-							<li><p><i class="far fa-envelope"></i> E-mail: <a href="mailTo:info@galindez.com.ar">info@galindez.com.ar</a></p> </li>
+							<li><p><i class="far fa-envelope"></i> Consultas: <a href="mailTo:info@galindez.com.ar">info@galindez.com.ar</a> </p> </li>
+							<li><p><i class="far fa-envelope"></i> Ventas: <a href="mailTo:presupuestos@galindez.com.ar">presupuestos@galindez.com.ar</a></p> </li>
 						</ul>
 					</div>
 				</div>
@@ -319,29 +320,76 @@
 	  					
 	  				</div>
 	  				<div class="col-sm-6">
-	  					<input type="number" class="form-control" name="cantidad-invitados" id="cantidad-invitados" placeholder="Cantidad de invitados">
+	  					<input type="text" class="form-control" name="cantidad-invitados" id="cantidad-invitados" placeholder="Cantidad de invitados">
 						<div class="error" id="cantidad-invitados-error">Ingrese una cantidad de invitados</div>
 	  				</div>
 	  			</div>
 
 	  			<div class="row">
+	
+	  				<div class="col-sm-6">
+	  					<select name="perfil-evento" id="perfil-evento" class="form-control form-small">
+			  				<option value="null">Elegir perfil de evento</option>
+			  				<option value="Social">Social</option>
+			  				<option value="Corporativo">Corporativo</option>
+			  				<option value="Fundacion/ong">Fundación / ONG</option>
+	  					</select>		
+	  					<div class="error" id="perfil-evento-error">Ingrese un perfil de evento</div>
+	  					
+	  				</div>
+	
 	  				<div class="col-sm-6">
 	  					<select name="tipo-evento" id="tipo-evento" class="form-control form-small">
 			  				<option value="null">Elegir tipo de evento</option>
-			  				<option value="Social">Social</option>
-			  				<option value="Corporativo">Corporativo</option>
+			  				<option value="Casamiento">Casamiento</option>
+			  				<option value="Fiesta_de_15">Fiesta de 15</option>
+			  				<option value="Bar_Bar_mitzvah">Bar/Bar mitzvah</option>
+			  				<option value="Cumpleaños">Cumpleaños</option>
+			  				<option value="Civil">Civil</option>
+			  				<option value="Bautismo">Bautismo</option>
+			  				<option value="Fiesta_de_fin_de_año">Fiesta de fin de año</option>
+			  				<option value="Evento_publicitario">Evento publicitario</option>
+			  				<option value="Evento_solidario">Evento solidario</option>
+
 	  					</select>		
 	  					<div class="error" id="tipo-evento-error">Ingrese un tipo de evento</div>
 	  					
 	  				</div>
+	  				
+	  			</div>
+	  			<div class="row">
 	  				<div class="col-sm-6">
+	  					<select name="tipo-servicio" id="tipo-servicio" class="form-control form-small">
+			  				<option value="null">Tipo de servicio</option>
+			  				<option value="Normal">Normal</option>
+			  				<option value="Finger food">Finger food</option>
+			  				<option value="Asado">Asado</option>
+			  				<option value="Cocktail">Cocktail</option>
+			  				<option value="Cena">Cena</option>
+			  				<option value="Desayuno / Coffee break">Desayuno / Coffee break</option>
+			  				<option value="Jornada">Jornada</option>
+			  				<option value="Media_jornada_con_almuerzo">Media jornada con almuerzo</option>
+			  				<option value="Media_jornada_sin_almuerzo">Media jornada sin almuerzo</option>
+	  					</select>		
+	  					<div class="error" id="tipo-servicio-error">Ingrese un tipo de servicio</div>
+	  					
+	  				</div>
+
+	  				<div class="col-sm-6 text-left">
 	  					<h4>MENU</h4>
 						<label class="radio-inline"><input type="radio" name="menu" value="Finger Food" checked>Finger food</label>
 						<label class="radio-inline"><input type="radio" value="Formal" name="menu">Formal</label>
 						<label class="radio-inline"><input type="radio" value="Informal" name="menu">Informal</label>
 
 	  				</div>
+	  				
 	  			</div>
+
+	  			<div class="row">
+	  				
+	  			</div>
+
+	  		
 	  			
 	  			<div class="row">
 	  				<div class="col-sm-12">

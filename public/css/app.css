@@ -2983,7 +2983,7 @@ header ul.sub-menu li:not(:first-child) {
   }
 }
 .addBkground {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(243, 243, 243, 0.8);
   box-shadow: -5px 10px 30px -24px rgba(0, 0, 0, 0.75);
 }
 
@@ -3003,7 +3003,7 @@ header ul.sub-menu li:not(:first-child) {
 
 @-webkit-keyframes removeBkground {
   0% {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(243, 243, 243, 0.8);
   }
   100% {
     background: transparent;
@@ -3012,7 +3012,7 @@ header ul.sub-menu li:not(:first-child) {
 
 @keyframes removeBkground {
   0% {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(243, 243, 243, 0.8);
   }
   100% {
     background: transparent;
@@ -3376,41 +3376,41 @@ section#nosotros .bkground-gray {
   display: none;
 }
 
-select#tipo-evento {
+#formulario form select {
   background-color: #D1D3D4 !important;
   border-radius: 20px !important;
   color: black !important;
   padding: 0px 10px 0 10px !important;
   border-bottom: 0;
 }
-select#tipo-evento option {
+#formulario form select option {
   background: white !important;
   border-radius: 50%;
   color: grey;
   border: 1px solid grey;
 }
 
-::-webkit-input-placeholder, select, select > option, .form form label, select#tipo-evento {
+::-webkit-input-placeholder, select, select > option, .form form label, #formulario form select {
   color: black !important;
   font-size: 12px;
 }
 
-::-moz-placeholder, select, select > option, .form form label, select#tipo-evento {
+::-moz-placeholder, select, select > option, .form form label, #formulario form select {
   color: black !important;
   font-size: 12px;
 }
 
-:-ms-input-placeholder, select, select > option, .form form label, select#tipo-evento {
+:-ms-input-placeholder, select, select > option, .form form label, #formulario form select {
   color: black !important;
   font-size: 12px;
 }
 
-::-ms-input-placeholder, select, select > option, .form form label, select#tipo-evento {
+::-ms-input-placeholder, select, select > option, .form form label, #formulario form select {
   color: black !important;
   font-size: 12px;
 }
 
-::placeholder, select, select > option, .form form label, select#tipo-evento {
+::placeholder, select, select > option, .form form label, #formulario form select {
   color: black !important;
   font-size: 12px;
 }
@@ -3498,6 +3498,11 @@ footer img {
   width: 120px;
 }
 
+@media screen\0  {
+  #galeria {
+    display: none;
+  }
+}
 /*PRELOADER*/
 #preloader, #preloader-mailing {
   position: fixed;
@@ -3731,6 +3736,9 @@ footer img {
     margin-top: 20px;
   }
   #formulario .form form .row:nth-child(5) .col-sm-6:nth-child(2) {
+    margin-bottom: 10px;
+  }
+  #formulario .form form .row:nth-child(6) .col-sm-6:nth-child(2) {
     text-align: center;
   }
   #formulario .form form .col-sm-6 {

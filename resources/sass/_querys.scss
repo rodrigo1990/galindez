@@ -162,7 +162,11 @@ footer .rr-ss-cont{
             margin-top:20px;
         }
         form{
-            .row:nth-child(5) .col-sm-6:nth-child(2){
+
+             .row:nth-child(5) .col-sm-6:nth-child(2){
+                margin-bottom:10px;
+            }
+            .row:nth-child(6) .col-sm-6:nth-child(2){
                 text-align: center;
             }
             .col-sm-6{

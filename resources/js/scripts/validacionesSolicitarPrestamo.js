@@ -6,7 +6,9 @@
             var lugar  = $("#formulario #lugar").val();
             var telefono  = $("#formulario #telefono").val();
             var cantidad = $("#formulario #cantidad-invitados").val();
+            var perfil_evento = $("#formulario #perfil-evento").val();
             var tipo_evento = $("#formulario #tipo-evento").val();
+            var tipo_servicio = $("#formulario #tipo-servicio").val();
             var menu = $("#formulario input[name='menu']:checked").val();
             var consulta = $("#formulario #consulta").val();
             
@@ -26,9 +28,11 @@
 
             var tipoEventoEstaValidado=false;
 
+            var perfilEventoEstaValidado  =  false;
+
+            var tipoServicioEstaValidado  =  false;
+
             var menuEventoEstaValidado=false;
-
-
 
             var emailValido=/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
@@ -98,20 +102,40 @@
             }
             console.log('tipo evento ' +tipoEventoEstaValidado);
 
+            if(tipo_servicio=="null"){
+                $("#formulario #tipo-servicio-error").fadeIn();
+                tipoServicioEstaValidado=false;
+            }else{
+                $("#formulario #tipo-servicio-error").fadeOut();
+                tipoServicioEstaValidado=true;
+            }
+            console.log('tipo evento ' +tipoEventoEstaValidado);
+
+            if(perfil_evento=="null"){
+                $("#formulario #perfil-evento-error").fadeIn();
+                perfilEventoEstaValidado=false;
+            }else{
+                $("#formulario #perfil-evento-error").fadeOut();
+                perfilEventoEstaValidado=true;
+            }
+            console.log('tipo evento ' +perfil_evento);
+
+
+            
+
 
           //  alert(menu);
             
 
 
-
-            if(nombreEstaValidado==true&&fechaEstaValidado==true&&emailEstaValidado==true&&lugarEstaValidado==true&&telefonoEstaValidado==true&&tipoEventoEstaValidado==true){
+            if(nombreEstaValidado==true&&fechaEstaValidado==true&&emailEstaValidado==true&&lugarEstaValidado==true&&telefonoEstaValidado==true&&tipoEventoEstaValidado==true&&tipoServicioEstaValidado==true&&perfilEventoEstaValidado==true){
                     $("body").append('<div id="preloader-mailing" ><div class="spinner-sm spinner-sm-1" id="status"> </div></div>');
                     $.ajax({
                         headers:{
                                  'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                                 },
                        
-                       data: {nombre:nombre,fecha:fecha,email:email,lugar:lugar,telefono:telefono,cantidad:cantidad,tipo_evento:tipo_evento,menu:menu,consulta:consulta},
+                       data: {nombre:nombre,fecha:fecha,email:email,lugar:lugar,telefono:telefono,cantidad:cantidad,tipo_evento:tipo_evento,tipo_servicio:tipo_servicio,perfil_evento:perfil_evento,menu:menu,consulta:consulta},
                        url:'enviarFormulario',
                        type:'post',
                         dataType:"json",
