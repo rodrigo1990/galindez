@@ -9,7 +9,7 @@
 							<li><a onClick="scrollAnimate('nosotros')" class="after-btn">NOSOTROS</a></li>
 							<li class="logo-li">
 								<a onClick="scrollAnimate('owl-1')" class="logo-btn" style="cursor:pointer">
-									<img class="logo" src="<?php echo asset("img/logo.svg")?>">
+									<img class="logo" src="<?php echo asset("img/logo-01.svg")?>">
 								</a>
 							</li>
 							<li><a onClick="scrollAnimate('contacto')" id="nosotros-btn" class="after-btn"  >CONTACTO</a></li>
@@ -32,7 +32,7 @@
 				<div class="hidden-lg col-md-12 col-sm-12 col-xs-12 text-center xs-row " style="">
 					<div class="container">
 						<a href="index.php">
-							<img class="logo" src="<?php echo asset("img/logo.svg")?>">
+							<img class="logo" src="<?php echo asset("img/logo-01.svg")?>">
 						</a>
 							<a id="abrirMenu">
 								<i class="fa fa-bars"  id="abrirMenu"></i>

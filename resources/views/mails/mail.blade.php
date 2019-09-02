@@ -9,7 +9,9 @@
 
 <b>Telefono:</b> {{$consulta->telefono}}<br>
 <b>Cantidad:</b> {{$consulta->cantidad}}<br>
+<b>Perfil de evento:</b> {{$consulta->perfil_evento}}<br>
 <b>Tipo de evento:</b> {{$consulta->tipo_evento}}<br>
+<b>Tipo de servicio:</b> {{$consulta->tipo_servicio}}<br>
 
 <b>Menu:</b> {{$consulta->menu}}<br>
 

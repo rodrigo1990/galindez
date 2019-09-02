@@ -342,14 +342,14 @@
 	  					<select name="tipo-evento" id="tipo-evento" class="form-control form-small">
 			  				<option value="null">Elegir tipo de evento</option>
 			  				<option value="Casamiento">Casamiento</option>
-			  				<option value="Fiesta_de_15">Fiesta de 15</option>
-			  				<option value="Bar_Bar_mitzvah">Bar/Bar mitzvah</option>
+			  				<option value="Fiesta de 15">Fiesta de 15</option>
+			  				<option value="Bar/Bar mitzvah">Bar/Bar mitzvah</option>
 			  				<option value="Cumpleaños">Cumpleaños</option>
 			  				<option value="Civil">Civil</option>
 			  				<option value="Bautismo">Bautismo</option>
-			  				<option value="Fiesta_de_fin_de_año">Fiesta de fin de año</option>
-			  				<option value="Evento_publicitario">Evento publicitario</option>
-			  				<option value="Evento_solidario">Evento solidario</option>
+			  				<option value="Fiesta de fin de año">Fiesta de fin de año</option>
+			  				<option value="Evento publicitario">Evento publicitario</option>
+			  				<option value="Evento solidario">Evento solidario</option>
 
 	  					</select>		
 	  					<div class="error" id="tipo-evento-error">Ingrese un tipo de evento</div>
@@ -368,8 +368,8 @@
 			  				<option value="Cena">Cena</option>
 			  				<option value="Desayuno / Coffee break">Desayuno / Coffee break</option>
 			  				<option value="Jornada">Jornada</option>
-			  				<option value="Media_jornada_con_almuerzo">Media jornada con almuerzo</option>
-			  				<option value="Media_jornada_sin_almuerzo">Media jornada sin almuerzo</option>
+			  				<option value="Media jornada con almuerzo">Media jornada con almuerzo</option>
+			  				<option value="Media jornada sin almuerzo">Media jornada sin almuerzo</option>
 	  					</select>		
 	  					<div class="error" id="tipo-servicio-error">Ingrese un tipo de servicio</div>
 	  					
