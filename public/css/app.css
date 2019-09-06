@@ -3031,28 +3031,44 @@ header ul.sub-menu li:not(:first-child) {
 }
 
 #owl-1 #slide-1 {
-  background-image: url(../img/slider/bk1-01.webp);
+  background-image: url(../img/slider/1.webp);
 }
 
 #owl-1 #slide-2 {
-  background-image: url(../img/slider/bk1-01.webp);
+  background-image: url(../img/slider/2.webp);
 }
 
 #owl-1 #slide-3 {
-  background-image: url(../img/slider/bk1-01.webp);
+  background-image: url(../img/slider/3.webp);
+}
+
+#owl-1 #slide-4 {
+  background-image: url(../img/slider/4.webp);
+}
+
+#owl-1 #slide-5 {
+  background-image: url(../img/slider/5.webp);
 }
 
 @media screen\0  {
   #owl-1 #slide-1 {
-    background-image: url(../img/slider/slide_1.jpg);
+    background-image: url(../img/slider/1.jpg);
   }
 
   #owl-1 #slide-2 {
-    background-image: url(../img/slider/slide_1.jpg);
+    background-image: url(../img/slider/2.jpg);
   }
 
   #owl-1 #slide-3 {
-    background-image: url(../img/slider/slide_1.jpg);
+    background-image: url(../img/slider/3.jpg);
+  }
+
+  #owl-1 #slide-4 {
+    background-image: url(../img/slider/4.jpg);
+  }
+
+  #owl-1 #slide-5 {
+    background-image: url(../img/slider/5.jpg);
   }
 }
 /*---------------------------------------------*/
@@ -3251,7 +3267,7 @@ section#nosotros .bkground-gray {
   margin-top: 98px;
 }
 #contacto ul li {
-  margin-bottom: 50px;
+  margin-bottom: 31px;
 }
 #contacto ul li a {
   color: #D02322;
@@ -3346,6 +3362,7 @@ section#nosotros .bkground-gray {
 .form form textarea {
   background-color: transparent !important;
   border: 1px solid grey;
+  height: 100px;
 }
 
 .form .btn {
@@ -3376,6 +3393,9 @@ section#nosotros .bkground-gray {
   display: none;
 }
 
+#formulario form div.row:nth-child(8) {
+  margin-top: 0;
+}
 #formulario form select {
   background-color: #D1D3D4 !important;
   border-radius: 20px !important;
@@ -3383,7 +3403,7 @@ section#nosotros .bkground-gray {
   padding: 0px 10px 0 10px !important;
   border-bottom: 0;
 }
-#formulario form select option {
+#formulario form option {
   background: white !important;
   border-radius: 50%;
   color: grey;
@@ -3457,11 +3477,18 @@ section#nosotros .bkground-gray {
   width: fit-content;
   margin: auto;
 }
+#branding-bar ul.flex li:nth-child(2) img {
+  margin-top: 3px;
+}
 #branding-bar ul.flex li {
   margin-right: 75px;
 }
-#branding-bar ul.flex li img {
-  width: 74px;
+#branding-bar ul.flex li img:hover {
+  -webkit-filter: brightness(0.8);
+          filter: brightness(0.8);
+  transition: -webkit-filter 0.5s;
+  transition: filter 0.5s;
+  transition: filter 0.5s, -webkit-filter 0.5s;
 }
 #branding-bar ul.flex li:nth-child(3) img {
   width: 71px;
@@ -3476,9 +3503,17 @@ footer ul.xs {
 footer ul.xs li {
   margin-top: 0 !important;
   margin-bottom: 5px !important;
+  font-family: "ZonaPro-Regular", "helvetica";
+  font-size: 1.2rem;
+}
+footer ul.xs li b {
+  font-family: "ZonaPro-bold", "helvetica";
+}
+footer .row > .container .col-sm-8 p.text-center a {
+  margin: auto !important;
 }
 footer a {
-  margin-right: 10px;
+  margin-right: 0;
   color: grey !important;
 }
 footer a i {
@@ -3489,7 +3524,8 @@ footer a:hover i {
   color: #D02322;
 }
 footer p {
-  margin-top: 18px;
+  margin-top: 6px;
+  line-height: 23px;
 }
 footer a {
   margin-top: 14px;
@@ -3740,6 +3776,10 @@ footer img {
   }
   #formulario .form form .row:nth-child(6) .col-sm-6:nth-child(2) {
     text-align: center;
+  }
+  #formulario .form form .row:nth-child(6) {
+    margin-top: 8px;
+    margin-bottom: 12px;
   }
   #formulario .form form .col-sm-6 {
     margin-bottom: 20px;

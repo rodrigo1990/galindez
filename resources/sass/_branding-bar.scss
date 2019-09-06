@@ -11,17 +11,24 @@
 	ul.flex{
 		width: fit-content;
 		margin:auto;
+		
+		li:nth-child(2) img{
+			margin-top:3px;
+		}
 
 		li{
 			margin-right: 75px;
+		
 
-			img{
-				width: 74px;
+			img:hover{
+				filter: brightness(0.8);
+				transition: filter 0.5s;
 			}
 		}
 
 		li:nth-child(3) img{
 			width: 71px;
 		}
+
 	}
 }

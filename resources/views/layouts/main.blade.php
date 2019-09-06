@@ -47,9 +47,15 @@
 		window.centerGlobal = {lat: -34.562154, lng: -58.492396};
 		window.locations=[];
 		window.markers=[];
-
-
 		window.map;
+		window.noDefaultLocations = [
+						{
+						    featureType: "poi",
+						    stylers: [
+						      { visibility: "off" }
+						    ]   
+						  }
+						];
 
 
 	 	locations.push(['<b>CAPITAL FEDERAL<br> </b><br>Reconquista 660, CABA <br><br> <b>TEL:</b> 4510-6594 <br><br> <b>Horario:</b> Lunes a viernes de  9 a 18hs. ',-34.562154,-58.492396]);
@@ -74,6 +80,8 @@
 	      center: centerGlobal,
 	      zoom: 16
 	    });
+
+	    map.setOptions({styles:noDefaultLocations});
 
 	    agregarLocaciones(locations);
 	  }
@@ -103,6 +111,41 @@
 			  	
 			  }
 
+		}
+
+
+		function removeNumbers(input){
+			var soloNumeros=/(\d+)/;
+			var value = $(input).val();
+			var stringFromArr;
+
+			//alert(value);
+
+				if(value.search(soloNumeros) != -1){
+					var arr = value.split('');
+
+					for(i=0;i<arr.length;i++){
+
+						if(!isNaN(arr[i])){
+
+							arr.splice(i,1);
+
+								for(i=0;i<arr.length;i++){
+
+								if(i==0){
+									stringFromArr = arr[i];	
+								}else{
+									stringFromArr += arr[i];
+								}
+
+							}	
+											
+						}
+					}
+
+					$(input).val(stringFromArr);
+				}
+			
 		}
 
 </script>

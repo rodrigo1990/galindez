@@ -36,6 +36,19 @@
 				
 			</div>
 		</div>
+
+		<div>
+			<div class="slide" id="slide-4">
+				
+			</div>
+		</div>
+
+
+		<div>
+			<div class="slide" id="slide-5">
+				
+			</div>
+		</div>
 	</div>
 
 	<section id="nosotros">
@@ -84,116 +97,12 @@
 	<section id="galeria">
 		<div id="gallery" style="display:none;">
 		
-			<img alt="Image 1 Title" src="<?php echo asset('img/slider/slide_1.jpg') ?>"
-				data-image="<?php echo asset('img/slider/slide_1.jpg') ?>"
-				data-description="Image 1 Description">
+		@for($i=1 ; $i<=24 ;$i++)
+			<img alt="Galindez Galería" src="<?php echo asset('img/galeria/'.$i.'.webp') ?>"
+				data-image="<?php echo asset('img/galeria/'.$i.'.webp') ?>"
+				data-description="Galindez Galeria">
 			
-			<img alt="Image 2 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-description="Image 2 Description">
-
-				<img alt="Image 2 Title" src="<?php echo asset('img/menu-img-bkground-02.webp') ?>"
-				data-image="<?php echo asset('img/menu-img-bkground-02.webp') ?>"
-				data-description="Image 2 Description">
-			
-
-			<img alt="Image 2 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-description="Image 2 Description">
-
-
-				<img alt="Image 2 Title" src="<?php echo asset('img/menu-img-bkground-01.webp') ?>"
-				data-image="<?php echo asset('img/menu-img-bkground-01.webp') ?>"
-				data-description="Image 2 Description">
-
-				<img alt="Image 1 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-description="Image 1 Description">
-			
-			<img alt="Image 2 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-description="Image 2 Description">
-
-				<img alt="Image 2 Title" src="<?php echo asset('img/menu-img-bkground-02.webp') ?>"
-				data-image="<?php echo asset('img/menu-img-bkground-02.webp') ?>"
-				data-description="Image 2 Description">
-			
-
-			<img alt="Image 2 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-description="Image 2 Description">
-
-
-				<img alt="Image 2 Title" src="<?php echo asset('img/menu-img-bkground-01.webp') ?>"
-				data-image="<?php echo asset('img/menu-img-bkground-01.webp') ?>"
-				data-description="Image 2 Description">
-
-				<img alt="Image 1 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-description="Image 1 Description">
-			
-			<img alt="Image 2 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-description="Image 2 Description">
-
-				<img alt="Image 2 Title" src="<?php echo asset('img/menu-img-bkground-02.webp') ?>"
-				data-image="<?php echo asset('img/menu-img-bkground-02.webp') ?>"
-				data-description="Image 2 Description">
-			
-
-			<img alt="Image 2 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-description="Image 2 Description">
-
-
-				<img alt="Image 2 Title" src="<?php echo asset('img/menu-img-bkground-01.webp') ?>"
-				data-image="<?php echo asset('img/menu-img-bkground-01.webp') ?>"
-				data-description="Image 2 Description">
-
-				<img alt="Image 1 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-description="Image 1 Description">
-			
-			<img alt="Image 2 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-description="Image 2 Description">
-
-				<img alt="Image 2 Title" src="<?php echo asset('img/menu-img-bkground-02.webp') ?>"
-				data-image="<?php echo asset('img/menu-img-bkground-02.webp') ?>"
-				data-description="Image 2 Description">
-			
-
-			<img alt="Image 2 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-description="Image 2 Description">
-
-
-				<img alt="Image 2 Title" src="<?php echo asset('img/menu-img-bkground-01.webp') ?>"
-				data-image="<?php echo asset('img/menu-img-bkground-01.webp') ?>"
-				data-description="Image 2 Description">
-
-				<img alt="Image 1 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-description="Image 1 Description">
-			
-			<img alt="Image 2 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-description="Image 2 Description">
-
-				<img alt="Image 2 Title" src="<?php echo asset('img/menu-img-bkground-02.webp') ?>"
-				data-image="<?php echo asset('img/menu-img-bkground-02.webp') ?>"
-				data-description="Image 2 Description">
-			
-
-			<img alt="Image 2 Title" src="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-image="<?php echo asset('img/slider/bk1-01.webp') ?>"
-				data-description="Image 2 Description">
-
-
-				<img alt="Image 2 Title" src="<?php echo asset('img/menu-img-bkground-01.webp') ?>"
-				data-image="<?php echo asset('img/menu-img-bkground-01.webp') ?>"
-				data-description="Image 2 Description">
-				
+		@endfor
 		
 		</div>
 	</section>
@@ -289,11 +198,11 @@
 	  			
 	  			<div class="row">
 	  				<div class="col-sm-6">
-	  					<input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+	  					<input type="text" class="form-control" name="nombre" id="nombre" placeholder="Nombre y Apellido" onKeyUp="removeNumbers('#nombre')">
 	  					<div class="error" id="nombre-error">Ingrese un nombre</div>
 	  				</div>
 	  				<div class="col-sm-6">
-	  					<input type="text" onfocus="(this.type='date')" class="form-control form-small" name="fecha" id="fecha" placeholder="Fecha">
+	  					<input type="text" onfocus="(this.type='date')" class="form-control form-small" name="fecha" id="fecha" placeholder="Fecha de evento">
 	  					<div class="error" id="fecha-error">Ingrese una fecha</div>
 	  					
 	  					
@@ -307,7 +216,7 @@
 	  				</div>
 	  				
 	  				<div class="col-sm-6">
-	  					<input type="text" class="form-control" name="lugar" id="lugar" placeholder="Lugar">
+	  					<input type="text" class="form-control" name="lugar" id="lugar" placeholder="Lugar del evento" onKeyUp="removeNumbers('#lugar')">
 	  					<div class="error" id="lugar-error">Ingrese un lugar válido</div>
 
   			
@@ -315,12 +224,12 @@
 	  			</div>
 	  			<div class="row">
 	  				<div class="col-sm-6">
-	  					<input type="text" class="form-control" name="telefono" id="telefono" placeholder="Tel de contacto">
+	  					<input type="number" class="form-control" name="telefono" id="telefono" placeholder="Tel de contacto">
 	  					<div class="error" id="telefono-error">Ingrese un teléfono</div>
 	  					
 	  				</div>
 	  				<div class="col-sm-6">
-	  					<input type="text" class="form-control" name="cantidad-invitados" id="cantidad-invitados" placeholder="Cantidad de invitados">
+	  					<input type="number" class="form-control" name="cantidad-invitados" id="cantidad-invitados" placeholder="Cantidad de invitados">
 						<div class="error" id="cantidad-invitados-error">Ingrese una cantidad de invitados</div>
 	  				</div>
 	  			</div>
@@ -358,10 +267,10 @@
 	  				
 	  			</div>
 	  			<div class="row">
-	  				<div class="col-sm-6">
+	  				<div class="col-sm-12">
 	  					<select name="tipo-servicio" id="tipo-servicio" class="form-control form-small">
 			  				<option value="null">Tipo de servicio</option>
-			  				<option value="Normal">Normal</option>
+			  				<option value="Normal">Formal</option>
 			  				<option value="Finger food">Finger food</option>
 			  				<option value="Asado">Asado</option>
 			  				<option value="Cocktail">Cocktail</option>
@@ -375,13 +284,6 @@
 	  					
 	  				</div>
 
-	  				<div class="col-sm-6 text-left">
-	  					<h4>MENU</h4>
-						<label class="radio-inline"><input type="radio" name="menu" value="Finger Food" checked>Finger food</label>
-						<label class="radio-inline"><input type="radio" value="Formal" name="menu">Formal</label>
-						<label class="radio-inline"><input type="radio" value="Informal" name="menu">Informal</label>
-
-	  				</div>
 	  				
 	  			</div>
 
@@ -393,7 +295,8 @@
 	  			
 	  			<div class="row">
 	  				<div class="col-sm-12">
-	  					<input type="text" class="form-control" name="consulta" id="consulta" placeholder="Consulta:">	
+	  					<label for="consulta">Consulta:</label>
+	  					<textarea class="form-control" name="consulta" id="consulta"></textarea>
 	  				</div>
 	  			</div>
 
@@ -440,21 +343,27 @@
 	<footer>
 		<div class="row">
 			<div class="container">
-				<div class="col-sm-2">
+			<!--  	<div class="col-sm-2">
 					<img src="<?php echo asset('img/logo-footer.svg') ?>" alt="">
-				</div>
-				<div class="col-sm-8">
+				</div>-->
+				<div class="col-sm-12">
 					<p class="text-center lg">
-						Pacheco 3548 - Capital Federal / <b>Tel:</b> (54 11) 4543-7933 / <b>E-mail:</b>info@galindez.com.ar
+						Pacheco 3548 - Capital Federal &nbsp;/&nbsp;  (54 11) 4543-7933 
+						&nbsp; / &nbsp; 
+						<b> Consultas:</b><a href="mailTo:info@galindez.com.ar" target="_blank"> info@galindez.com.ar</a> &nbsp; /  
+						<b> &nbsp; Ventas:</b><a href="mailTo:presupuestos@galindez.com.ar" target="_blank"> presupuestos@galindez.com.ar</a>
+
+
 					</p>
 
 					<ul class="text-center center-block xs">
 						<li>Pacheco 3548 - Capital Federal</li>
-						<li><b>Tel:</b> (54 11) 4543-7933</li>
-						<li><b>E-mail:</b>info@galindez.com.ar</li>
+						<li>(54 11) 4543-7933</li>
+						<li><b>Consultas: </b><a href="mailTo:info@galindez.com.ar" target="_blank"> info@galindez.com.ar</a></li>
+						<li><b>Ventas: </b> <a href="mailTo:presupuestos@galindez.com.ar" target="_blank"> presupuestos@galindez.com.ar</a></li>
 					</ul>
 				</div>
-				<div class="col-sm-2">
+			<!-- 	<div class="col-sm-2">
 
 					<div class="rr-ss-cont">
 					
@@ -466,7 +375,7 @@
 					</div>
 
 
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</footer>

@@ -95,6 +95,7 @@
 .form form textarea{
   background-color: transparent !important;
   border:1px solid grey;
+  height: 100px;
 }
 
 
@@ -130,19 +131,24 @@
   display:none;
 }
 
-#formulario form select{
- 	background-color: #D1D3D4!important;
-    border-radius: 20px !important;
-    color: black !important;
-    padding: 0px 10px 0 10px !important;
-    border-bottom: 0;
-	
-	option{
-		background: white!important;
-	    border-radius: 50%;
-	    color: grey;
-	    border: 1px solid grey;
-	}
+#formulario form{
+
+  div.row:nth-child(8){
+    margin-top:0;
+  }
+   select{
+   	background-color: #D1D3D4!important;
+      border-radius: 20px !important;
+      color: black !important;
+      padding: 0px 10px 0 10px !important;
+      border-bottom: 0;
+  }	
+  	option{
+  		background: white!important;
+  	    border-radius: 50%;
+  	    color: grey;
+  	    border: 1px solid grey;
+  	}
 }
 
 

@@ -40317,7 +40317,7 @@ window.validarFormulario = function () {
 
   console.log('telefono ' + telefonoEstaValidado);
 
-  if (cantidad == 0) {
+  if (cantidad.length > 4) {
     $("#formulario #cantidad-invitados-error").fadeIn();
     cantidadEstaValidado = false;
   } else {
