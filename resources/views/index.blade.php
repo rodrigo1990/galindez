@@ -237,11 +237,11 @@
 	  			<div class="row">
 	
 	  				<div class="col-sm-6">
-	  					<select name="perfil-evento" id="perfil-evento" class="form-control form-small">
+	  					<select name="perfil-evento" id="perfil-evento" class="form-control form-small" onChange="selectLoader()">
 			  				<option value="null">Elegir perfil de evento</option>
 			  				<option value="Social">Social</option>
 			  				<option value="Corporativo">Corporativo</option>
-			  				<option value="Fundacion/ong">Fundación / ONG</option>
+			  				<option value="Fundacion-ONG">Fundación / ONG</option>
 	  					</select>		
 	  					<div class="error" id="perfil-evento-error">Ingrese un perfil de evento</div>
 	  					
@@ -250,15 +250,23 @@
 	  				<div class="col-sm-6">
 	  					<select name="tipo-evento" id="tipo-evento" class="form-control form-small">
 			  				<option value="null">Elegir tipo de evento</option>
-			  				<option value="Casamiento">Casamiento</option>
-			  				<option value="Fiesta de 15">Fiesta de 15</option>
-			  				<option value="Bar/Bar mitzvah">Bar/Bar mitzvah</option>
-			  				<option value="Cumpleaños">Cumpleaños</option>
-			  				<option value="Civil">Civil</option>
-			  				<option value="Bautismo">Bautismo</option>
-			  				<option value="Fiesta de fin de año">Fiesta de fin de año</option>
-			  				<option value="Evento publicitario">Evento publicitario</option>
-			  				<option value="Evento solidario">Evento solidario</option>
+			  				<option value="Casamiento"style="display:none"> Casamiento</option>
+			  				<option value="Fiesta_de_15" style="display:none">Fiesta de 15</option>
+			  				<option value="Bar-Bar_Mitzvah" style="display:none">Bar/Bar mitzvah</option>
+			  				<option value="Cumpleaños" style="display:none">Cumpleaños</option>
+			  				<option value="Civil" style="display:none">Civil</option>
+			  				<option value="Bautismo" style="display:none">Bautismo</option>
+
+			  				<option value="Fiesta_de_fin_de_año" style="display:none">Fiesta de fin de año</option>
+			  				<option value="Evento_publicitario" style="display:none">Evento publicitario</option>
+			  				<option value="Jornada_laboral" style="display:none">Jornada laboral</option>
+							
+
+							<option value="Fundación" style="display:none">Fundación</option>
+							<option value="ONG" style="display:none">ONG</option>
+
+			  				<option value="Otros" style="display:none;">Otros</option>
+
 
 	  					</select>		
 	  					<div class="error" id="tipo-evento-error">Ingrese un tipo de evento</div>

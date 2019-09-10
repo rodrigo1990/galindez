@@ -84,7 +84,7 @@
             }
             console.log('telefono '+telefonoEstaValidado);
 
-            if(cantidad.length>4){
+            if(cantidad.length>4 || cantidad.length==0){
                 $("#formulario #cantidad-invitados-error").fadeIn();
                 cantidadEstaValidado=false;
             }else{

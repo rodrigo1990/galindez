@@ -125,12 +125,22 @@ ul.flex{
 
     li{
         margin-bottom: 25px;
+
+        p{
+            font-size: 12px;
+        }
     }
 }
 
 #branding-bar ul.flex li {
     margin-right: auto;
+    margin-left:auto;
 }
+
+#branding-bar ul.flex li:nth-child(3) {
+            margin-top:auto !important;
+        }
+
 
 #branding-bar ul.flex li:not(:nth-child(3)) {
     margin-bottom:25px;
