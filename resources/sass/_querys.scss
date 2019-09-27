@@ -122,7 +122,12 @@ ul.flex{
     margin: auto;
     margin-top: 40px;
     width: fit-content;
-
+    .xs{
+        display:block;
+    }
+    .lg{
+        display:none;
+    }
     li{
         margin-bottom: 25px;
 

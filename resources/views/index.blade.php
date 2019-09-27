@@ -58,9 +58,8 @@
 			</div>
 			<div class="row text-center content">
 				<h2>19 AÑOS DE EXPERIENCIA</h2>
-				<p>
-					Contamos con el personal, la infraestructura y logística apropiadas para realizar todo tipo de eventos conservando la <b>calidad, el servicio y la dedicación.</b>Esto, año tras año ha convertido a <b> Galindez Catering</b>  en un importante referente en el mundo de la organización y realización de eventos.
-				</p>
+				<p><b>Galindez Catering</b> abrió sus puertas en 1995 con la pasión y el sueño de aquellos que creen que haciendo las cosas con amor y vocación se llega a buen puerto. Muy pronto se formó un equipo con muchas ganas de crecer y con los mismos objetivos: la <b>calidez</b> en cada contacto, la <b>calidad</b> de los productos que ofrecemos y la búsqueda de la mejor alternativa para cada necesidad.<br>
+				A lo largo de toda nuestra trayectoria, nuestros clientes nos han definido como una empresa <b>confiable e innovadora.</b></p>
 			</div>
 		</div>
 
@@ -173,7 +172,8 @@
 					<div class="list-cont">
 						<ul>
 							<li> <p><i class="fas fa-map-marker-alt"></i> Pacheco 3548 - Capital Federal</p> </li>
-							<li> <p><i class="fas fa-phone"></i> (54 11) 4543-7933</p> </li>
+							<li class="xs"> <p><a href="Tel:1156459240"><i class="fas fa-phone"></i> (54 11) 4543-7933</p></a> </li>
+							<li class="lg"> <p><i class="fas fa-phone"></i> (54 11) 4543-7933</p> </li>
 							<li><p><i class="far fa-envelope"></i> Consultas: <a href="mailTo:info@galindez.com.ar">info@galindez.com.ar</a> </p> </li>
 							<li><p><i class="far fa-envelope"></i> Ventas: <a href="mailTo:presupuestos@galindez.com.ar">presupuestos@galindez.com.ar</a></p> </li>
 						</ul>
