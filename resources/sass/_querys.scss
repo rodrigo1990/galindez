@@ -105,6 +105,7 @@ div.bkground ul{
 ul.flex{
     flex-direction:column;
     flex-wrap: nowrap;
+    align-items: center;
 }
 
 
@@ -236,7 +237,10 @@ footer .rr-ss-cont{
 }
 
 @media only screen and (min-width: 10px) and (max-width: 1024px)  {
-
+#tipoEvento fieldset legend{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 }
 

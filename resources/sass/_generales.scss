@@ -135,15 +135,16 @@ h1,h2{
 
     img.red{
       display:block;
+      filter: grayscale(1);
     }
     cursor:pointer;
      position: fixed;
     right: 3px;
     top: 36%;
-    border: 2px solid #D02322;
+    border: 2px solid $gray;
     
     font-family: "ZonaPro-Regular";
-    color: #D02322;
+    color: $gray;
     height: 130px;
     width: 130px;
     border-radius: 50%;
@@ -167,7 +168,7 @@ h1,h2{
     content: "";
     box-sizing: content-box;
     z-index: -1;
-    background-color: #D02322;
+    background-color: $gray;
     transition: transform 0.4s cubic-bezier(0.19, 1, 0.22, 1);
     transform-origin: 50% 50%;
     -khtml-transform: scale(0);

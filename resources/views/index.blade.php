@@ -93,6 +93,38 @@
 		</div>
 	</section>
 
+	<section id="tipoEvento">
+		<div class="container">
+			<fieldset class="center-block" style="">
+
+					<legend style=" "><h1>TIPOS DE EVENTOS</h1></legend>
+
+					<ul class="flex">
+					<li>
+						<img class="center-block" src="<?php echo asset('img/tipo_1.svg') ?>" alt="">
+						<h4 class="text-center">Social</h4>
+						<p class="text-center">Casamientos / Fiestas de XV <br> Cumpleaños / Civil</p>
+
+					</li>
+					<li>
+					
+						<img class="center-block" src="<?php echo asset('img/tipo_2.svg') ?>" alt="">
+						<h4 class="text-center">Corporativo</h4>
+						<p class="text-center">Fiesta de fin de año / Evento <br> publicitario / Jornada Laboral</p>
+
+					</li>
+					<li>
+						<img class="center-block" src="<?php echo asset('img/tipo_3.svg') ?>" alt="">
+						<h4 class="text-center">Eventos solidarios</h4>
+						<p class="text-center">Fundación / ONG</p>
+
+					</li>
+					
+				</ul>
+				</fieldset>
+			</div>
+	</section>
+
 	<section id="galeria">
 		<div id="gallery" style="display:none;">
 		
