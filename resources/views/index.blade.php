@@ -101,6 +101,7 @@
 
 					<ul class="flex">
 					<li>
+
 						<img class="center-block" src="<?php echo asset('img/tipo_1.svg') ?>" alt="">
 						<h4 class="text-center">Social</h4>
 						<p class="text-center">Casamientos / Fiestas de XV <br> Cumpleaños / Civil</p>
@@ -144,7 +145,7 @@
 
 		<div class="container-fluid">
 
-			<a href="salones.php#palmeras">
+			<a href="<?php echo asset('menus/formal.pdf') ?>" target="_blank">
 
 				<div class="col-md-6 col-sm-12 image-selector" id="palmeras">
 
@@ -152,7 +153,7 @@
 					
 					<div class="text-container">
 
-						<h1 class="text-center">CORPORATIVO </h1>
+						<h1 class="text-center">FORMAL </h1>
 
 						<img class="arrow center-block" src="<?php echo asset('img/icon-fixed-btn-red.svg') ?>" alt="">
 
@@ -165,7 +166,7 @@
 
 			</a>
 
-			<a href="salones.php#laguna">
+			<a href="<?php echo asset('menus/finger.pdf') ?>" target="_blank">
 
 				<div class="col-md-6 col-sm-12 image-selector" id="laguna">
 
@@ -173,7 +174,7 @@
 					
 					<div class="text-container">
 
-						<h1 class="text-center">SOCIAL</h1>
+						<h1 class="text-center">FINGER</h1>
 						
 
 						<img class="arrow center-block" src="<?php echo asset('img/icon-fixed-btn-red.svg') ?>" alt="">
