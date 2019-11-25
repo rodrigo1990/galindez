@@ -58,7 +58,7 @@
 						];
 
 
-	 	locations.push(['<b>CAPITAL FEDERAL<br> </b><br>Reconquista 660, CABA <br><br> <b>TEL:</b> 4510-6594 <br><br> <b>Horario:</b> Lunes a viernes de  9 a 18hs. ',-34.562154,-58.492396]);
+	 	locations.push(['CAPITAL FEDERAL: Pacheco 3548 ',-34.562154,-58.492396]);
 
     	initMap();
 
@@ -102,7 +102,7 @@
 			    marker = new google.maps.Marker({
 			      position: new google.maps.LatLng(locations[count][1], locations[count][2]),
 			      map: map,
-			      icon: "<?php echo asset("img/logo-maps.svg")?>",
+			      icon: "<?php echo asset("img/logo-mas-claro.png")?>",
 			      title: locations[count][0]
 			    });
 

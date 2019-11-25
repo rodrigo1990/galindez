@@ -57,7 +57,7 @@
 				<h1>NOSOTROS</h1>
 			</div>
 			<div class="row text-center content">
-				<h2>19 AÑOS DE EXPERIENCIA</h2>
+				<!--  <h2>19 AÑOS DE EXPERIENCIA</h2>-->
 				<p><b>Galindez Catering</b> abrió sus puertas en 1995 con la pasión y el sueño de aquellos que creen que haciendo las cosas con amor y vocación se llega a buen puerto. Muy pronto se formó un equipo con muchas ganas de crecer y con los mismos objetivos: la <b>calidez</b> en cada contacto, la <b>calidad</b> de los productos que ofrecemos y la búsqueda de la mejor alternativa para cada necesidad.<br>
 				A lo largo de toda nuestra trayectoria, nuestros clientes nos han definido como una empresa <b>confiable e innovadora.</b></p>
 			</div>
@@ -282,7 +282,7 @@
 	
 	  				<div class="col-sm-6">
 	  					<select name="tipo-evento" id="tipo-evento" class="form-control form-small">
-			  				<option value="null">Elegir tipo de evento</option>
+			  				<option value="0">Elegir tipo de evento</option>
 			  				<option value="Casamiento"style="display:none"> Casamiento</option>
 			  				<option value="Fiesta_de_15" style="display:none">Fiesta de 15</option>
 			  				<option value="Bar-Bar_Mitzvah" style="display:none">Bar/Bar mitzvah</option>

@@ -93,7 +93,7 @@
             }
             console.log('cantidad '+cantidadEstaValidado);
             
-            if(tipo_evento=="null"){
+            if(tipo_evento==0){
                 $("#formulario #tipo-evento-error").fadeIn();
                 tipoEventoEstaValidado=false;
             }else{
